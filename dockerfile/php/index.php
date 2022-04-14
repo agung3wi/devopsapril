@@ -1,2 +1,3 @@
 <?php
-echo "Hello World";
+$app = getenv("APP_NAME");
+echo "Hello $app!";
