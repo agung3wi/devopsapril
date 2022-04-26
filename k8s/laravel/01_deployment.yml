@@ -61,6 +61,10 @@ spec:
               value: "5000"
             - name: LOG_CHANNEL
               value: logstash
+            - name: ELASTIC_APM_SERVER_URL
+              value: "http://122.248.217.58:8200"
+            - name: ELASTIC_APM_SERVICE_NAME
+              value: "Laravel"
           name: app
           imagePullPolicy: Always
           ports:
