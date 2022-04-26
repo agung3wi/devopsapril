@@ -55,6 +55,12 @@ spec:
               value: "http://minio:9000"
             - name: MINIO_ENDPOINT
               value: "http://minio:9000"
+            - name: LOGSTASH_HOST
+              value: "122.248.217.58"
+            - name: LOGSTASH_PORT
+              value: "5000"
+            - name: LOG_CHANNEL
+              value: logstash
           name: app
           imagePullPolicy: Always
           ports:
